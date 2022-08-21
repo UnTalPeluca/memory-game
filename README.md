@@ -1,29 +1,36 @@
-# memory-game
+## Table of contents
 
-This template should help get you started developing with Vue 3 in Vite.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
 
-## Recommended IDE Setup
+## Overview
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### The challenge
 
-## Customize configuration
+Users should be able to:
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- View the optimal layout for the game depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Play the Memory game either solo or multiplayer (up to 4 players)
+- Set the theme to use numbers or icons within the tiles
+- Choose to play on either a 6x6 or 4x4 grid
 
-## Project Setup
+### Screenshot
 
-```sh
-npm install
-```
+![](./screenshot.jpg)
 
-### Compile and Hot-Reload for Development
+### Links
 
-```sh
-npm run dev
-```
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/memory-game-with-vue-and-tailwind-PUcdEK-kZP)
+- Live Site URL: [Netlify](https://dreamy-moonbeam-7961b0.netlify.app)
 
-### Compile and Minify for Production
+## My process
 
-```sh
-npm run build
-```
+### Built with
+
+- Vue3
+- Tailwind
