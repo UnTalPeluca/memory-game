@@ -1,7 +1,8 @@
 <template>
   <div class="flex justify-center gap-6">
-    <div class="text-center rounded p-3 w-full relative sm:text-left sm:w-64 sm:px-5 lg:flex lg:items-center lg:justify-between"
-      :class="store.gameInstance.turn === index ? ['bg-primary-idle', 'arrow-up'] : ['bg-secondary-idle']"
+    <div
+      class="text-center rounded p-3 w-full relative sm:text-left sm:w-64 sm:px-5 lg:flex lg:items-center lg:justify-between lg:rounded-xl"
+      :class="store.gameInstance.turn === index ? ['bg-primary-idle', 'arrow-up', 'current-turn'] : ['bg-secondary-idle']"
       v-for="(score, index) in store.gameInstance.scores" :key="index">
       <p class="font-bold lg:text-lg" :class="store.gameInstance.turn === index ? ['text-white'] : ['text-title ']">
         <span class="sm:hidden">P</span><span class="hidden sm:inline">Player </span>{{ index + 1 }}
@@ -39,6 +40,18 @@ const store = useStore()
 @media (min-width: 1024px) {
   .arrow-up::before {
     border-width: 18px;
+  }
+
+  .current-turn::after {
+    content: 'CURRENT TURN';
+    letter-spacing: 5px;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    width: 100%;
+    top: 125%;
+    left: 0;
+    text-align: center;
   }
 }
 </style>
