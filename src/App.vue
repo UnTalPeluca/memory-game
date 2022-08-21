@@ -19,7 +19,8 @@ import { useStore } from '@/stores/store';
 import MemoryGame from './components/MemoryGame.vue';
 
 const store = useStore()
-
+store.startGame()
+store.pauseGame()
 </script>
 
 <style scoped>
