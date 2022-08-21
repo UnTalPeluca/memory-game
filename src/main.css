@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("/fonts/AtkinsonHyperlegible-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("/fonts/AtkinsonHyperlegible-Bold.ttf");
+  font-weight: bold;
+}
+
+body {
+  font-family: "Atkinson Hyperlegible";
+  min-height: 100vh;
+  font-size: 15px;
+}

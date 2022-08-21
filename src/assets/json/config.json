@@ -1,0 +1,11 @@
+{
+  "theme": {
+    "options": ["Numbers", "Icons"]
+  },
+  "players": {
+    "options": [1, 2, 3, 4]
+  },
+  "size": {
+    "options": ["4x4", "6x6"]
+  }
+}
